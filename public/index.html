@@ -6,9 +6,36 @@
 		<title>Image Search</title>
 		
 		<link href="/public/css/main.css" rel="stylesheet" type="text/css">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
+		integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	</head>
 
 	<body>
+		<div class="container">
+			<h1 class="text-center">Image Search Abstraction Layer</h1>
+			<hr>
+			<h2>Example creation usage:</h2>
+			<p>https://cryptic-ridge-9197.herokuapp.com/api/imagesearch/lolcats%20funny?offset=10</p>
+			<h2>Example creation output</h2>
+			<p>
+				{
+				url: "http://www.wallpapersxl.com/wallpapers/1440x900/flamenco/169257/flamenco-lolcats-funny-169257.jpg",
+				snippet: "Lolcats Funny 1440x900",
+				thumbnail: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcStyjj01vszOWOaJvzp6bpgCeyeoKezI_AQ1jTZ-IiHkaQQIT-5WSnYgqg",
+				context: "http://www.wallpapersxl.com/wallpaper/1440x900/flamenco-lolcats-funny-169257.html"
+				}
+			</p>
+			<h2>See Recent Searches:</h2>
+			<p>https://cryptic-ridge-9197.herokuapp.com/latest</p>
+			<h2>Example output</h2>
+			<p>{"term":"lolcats","when":"2016-05-05T19:02:05.756Z"}</p>
+		</div>
+		
+		
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" 
+		integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 		
 	</body>
 
