@@ -24,7 +24,7 @@
   "author": "Danny Lewis",
   "license": "MIT",
   "dependencies": {
-    "dotenv": "^1.2.0",
+    "dotenv": "^8.0.0",
     "express": "^4.12.4",
     "express-session": "^1.11.3",
     "jquery": "^2.2.3",
