@@ -28,7 +28,7 @@
     "express": "^4.12.4",
     "express-session": "^1.11.3",
     "jquery": "^2.2.3",
-    "mongoose": "^4.1.0",
+    "mongoose": "^5.6.2",
     "node-bing-api": "^2.4.1"
   }
 }
